@@ -1,0 +1,19 @@
+# Entorno local / secretos
+config.json
+app/config.json
+
+# Salidas generadas
+output/
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
+# CSV de ejemplo dentro de app no debe versionarse
+app/*.csv

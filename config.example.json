@@ -1,0 +1,27 @@
+{
+  "db": {
+    "host": "HOST_DE_BD",
+    "port": 5432,
+    "dbname": "NOMBRE_BD",
+    "user": "USUARIO_BD",
+    "password": "PASSWORD_BD"
+  },
+  "smtp": {
+    "server": "sandbox.smtp.mailtrap.io",
+    "port": 587,
+    "user": "USUARIO_SMTP",
+    "password": "PASSWORD_SMTP",
+    "sender_email": "Python DataOps <pydataops@example.com>"
+  },
+  "paths": {
+    "csv_dir": "/app/data",
+    "output_dir": "/app/output",
+    "excel": "ComisionesCalculadas.xlsx"
+  },
+  "mail_enabled": false,
+  "report": {
+    "to": "correo_destino@example.com",
+    "subject": "Comisiones Calculadas",
+    "body_html": "Estimado(a), <br>Adjunto encontrarás el archivo con las comisiones calculadas.<br>Saludos."
+  }
+}
